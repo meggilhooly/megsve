@@ -1,0 +1,192 @@
+/* Meghan Gilhooly's CSS file */
+    
+    nav {
+    display: flex;
+    flex-direction: initial;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top:30px;
+    width: 200px;
+}
+    nav ul {
+        list-style-type:none;
+        border: 1px solid #083a7b;
+        margin-left: 0;
+        padding-left: 5px;
+        border-bottom: none;
+        display: block;
+        line-height: 2;
+        height: 1%;
+       }
+    nav a {
+       display: block;
+       background: #75d4c4;
+       padding-left: 1px;
+       line-height: 2;
+       border-bottom-color: #083a7b;
+       height: 1%;
+      }
+    nav a:hover {
+             background-color: white;
+            }
+    nav li {
+        display: inline;
+       }
+p {font-family: verdana, arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 0;
+    padding:0;
+    }
+
+body {
+        font-family: verdana, arial, sans-serif;
+        font-size: 12px;
+        line-height: 1.5;
+        margin:0;
+        padding: 0;
+        Background: #083a7b
+    }
+   .home p {font-size: 100% ; }
+    h1, h2, h3, p { font-family: georgia, garamond, serif;
+                font-weight: normal; }
+            h1 { font-size: 100% ; }
+            h2 { font-size: 100% ; }
+            h3 { font-size: 100% ; }
+            h4 { font-size: 100% ; }
+            p  { font-size: 150% ; }
+
+        p, h1, h2, ol, ul {
+            margin-top: 0 ;
+            margin-bottom: 1px ;
+        }
+
+        img {
+            padding: 0;
+            border: 2px solid #083a7b;
+            background-color: #75d4c4;
+            }
+            
+            a {
+              color: #083a7b;
+              font-weight: bold;
+              text-decoration: none;
+              border-bottom: 1px solid black;
+              padding-bottom: 1px;
+              }
+
+              a:visited {
+                         color: #1e7eda;
+                        }
+              a:hover, a:focus, a:active {background-color: #75d4c4; color: #083a7b; border-bottom-color:#083a7b;}
+
+              .bachelorettes div#wrapper {               
+                                          width: 640px;
+                                          margin-left: auto;
+                                          margin-right: auto;
+                                          margin-top: 10px;
+                                          margin-bottom: 10px;
+                                          background-color: #75d4c4; 
+                                          background-position: left top;
+                                          background-attachment: scroll;
+                                          border: 2px dotted black;                
+                                         }
+              .bachelors div#wrapper {               
+                                      width: 640px;
+                                      margin-left: auto;
+                                      margin-right: auto;
+                                      margin-top: 10px;
+                                      margin-bottom: 10px;
+                                      background-color: #75d4c4; 
+                                      background-position: left top;
+                                      background-attachment: scroll;
+                                      border: 2px dotted black;                
+                                     }                          
+              .home div#wrapper {
+                                 width: 640px;
+                                 margin-left: auto;
+                                 margin-right: auto;
+                                 margin-top: 10px;
+                                 margin-bottom: 10px;
+                                 background-color: #75d4c4; 
+                                 background-position: left top;
+                                 background-attachment: scroll;
+                                 border: 2px dotted black;
+                                }
+              .roommates div#wrapper {               
+                                      width: 640px;
+                                      margin-left: auto;
+                                      margin-right: auto;
+                                      margin-top: 10px;
+                                      margin-bottom: 10px;
+                                      background-color: #75d4c4; 
+                                      background-position: left top;
+                                      background-attachment: scroll;
+                                      border: 2px dotted black;                
+                                    }
+
+               .bachelorettes header {
+                                      height: 242px;
+                                      margin-bottom: 7920px;
+                                     }
+               .bachelors header {
+                                  height: 242px;
+                                  margin-bottom: 9425px;
+                                 }                      
+               .home header {
+                      height: 242px;
+                      margin-bottom: 3350px;
+                    } 
+               .roommates header {
+                                  height: 242px;
+                                  margin-bottom: 925px;
+                                }
+              
+
+                    .home header {
+                        margin-left: auto;
+                        margin-right:auto;
+                        background: #75d4c4 url(images/banner3.png) no-repeat;
+                                                      }
+                    .roommates header {
+                                       margin-left: auto;
+                                       margin-right: auto;
+                                       background: #75d4c4 url(images/otherbanner.png) no-repeat;                         
+                                     }
+                    .bachelorettes header {
+                                            margin-left: auto;
+                                            margin-right: auto;
+                                            background: #75d4c4 url(images/otherbanner.png) no-repeat; 
+                                          }
+                    .bachelors header {
+                                       margin-left: auto;
+                                       margin-right: auto;
+                                       background: #75d4c4 url(images/otherbanner.png) no-repeat; 
+                                     }
+        article { 
+                 float: left;
+                 width: 600px;
+                 padding-left: 10px;
+                }
+                    table {border: 1px #083a7b;
+                           margin-left: 160px;
+                           margin-right: 10px;
+                           width: 300px;
+                        }
+                    caption {display: none;}
+                    tbody {font-family: Georgia; }
+
+                    .bachelorettes {
+                                    text-align: center;
+                                   }
+                    .bachelors {
+                                text-align: center;
+                               }
+                    .home {
+                           text-align: center;
+                          }
+                    .roommates {
+                                text-align: center;
+                               }     
+
+          
